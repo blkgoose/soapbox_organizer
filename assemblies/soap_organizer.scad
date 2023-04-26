@@ -3,5 +3,5 @@ include <../parts/tray.scad>
 
 organizer();
 
-translate([0, 0, -$t*20])
+translate([0, 100, tray_height])
 tray();
