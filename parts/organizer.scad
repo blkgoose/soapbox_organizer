@@ -12,11 +12,8 @@ holes_size = 3;
 
 tray_height = 10;
 
-if ($preview) {
-    $fn=5;
-} else {
-    $fn=300;
-}
+$fa = 1;
+$fs = 0.5;
 
 module organizer() {
     translate([soap_height/2, soap_depth/2, 0])
